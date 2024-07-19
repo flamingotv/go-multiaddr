@@ -11,8 +11,11 @@ import (
 	"github.com/wlynxg/anet"
 	"net"
 
+	logging "github.com/ipfs/go-log/v2"
 	ma "github.com/multiformats/go-multiaddr"
 )
+
+var log = logging.Logger("manet")
 
 // Conn is the equivalent of a net.Conn object. It is the
 // result of calling the Dial or Listen functions in this
