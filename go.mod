@@ -9,7 +9,7 @@ require (
 	github.com/multiformats/go-multihash v0.2.3
 	github.com/multiformats/go-varint v0.0.7
 	github.com/stretchr/testify v1.7.0
-	github.com/wlynxg/anet v0.0.3
+	github.com/wlynxg/anet v0.0.5
 	golang.org/x/exp v0.0.0-20230725012225-302865e7556b
 )
 

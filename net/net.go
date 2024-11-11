@@ -8,11 +8,11 @@ package manet
 import (
 	"context"
 	"fmt"
-	"github.com/wlynxg/anet"
 	"net"
 
 	logging "github.com/ipfs/go-log/v2"
 	ma "github.com/multiformats/go-multiaddr"
+	anet "github.com/wlynxg/anet"
 )
 
 var log = logging.Logger("manet")
